@@ -38,8 +38,8 @@ line-height: 1.2;
 }
 p{
   color: var(--Neutral-Grey, #717171);
-font-size: 1.4rem;
-line-height: 1.4;
+font-size: 1.6rem;
+line-height: 1.5;
 }
 .btn{
   display: inline-block;
@@ -240,4 +240,328 @@ flex-shrink: 0;
 }
 .unlock-main .btn-learn a{
   color: #FFFFFF;
+}
+/* Achieve-main */
+.achieve{
+  background: var(--Neutral-Silver, #F5F7FA);
+  margin-top: 48px;
+}
+.achieve-main{
+  padding: 64px 144px;
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+}
+.section{
+  display: flex;
+width: 540px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+flex-shrink: 0;
+}
+.section .title{
+  color: var(--Neutral-D_Grey, #4D4D4D);
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.2; 
+}
+.section .title strong{
+  color: var(--Brand-Primary, #4CAF4F);
+}
+.achieve-main .count{
+  display: flex;
+  width: 540px;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
+.achieve-main .count .row{
+  display: flex;
+align-items: center;
+gap: 30px;
+}
+.achieve-main .count .block{
+  display: flex;
+align-items: center;
+gap: 16px;
+width: 255px;
+}
+.achieve-main .count .block .number{
+  color: var(--Neutral-D_Grey, #4D4D4D);
+font-size: 2.8rem;
+font-weight: 700;
+line-height: 1.3; /* 128.571% */
+}
+.achieve-main .count .block .label{
+  color: var(--Neutral-Grey, #717171);
+font-size: 1.6rem;
+}
+/* customer */
+.customer-main{
+  display: flex;
+padding: 32px 144px;
+align-items: center;
+gap: 78px;
+}
+.customer-main .fram-11{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+}
+.customer-main .fram-11 .content{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+}
+.customer-main .fram-11 .content .desc-text{
+  color: var(--Neutral-Grey, #717171);
+font-size: 1.6rem;
+font-weight: 500;
+text-align: justify;
+}
+.customer-main .fram-11 .content .name{
+  margin-top: 16px;
+  color: var(--Brand-Primary, #4CAF4F);
+font-size: 2rem;
+font-weight: 600;
+line-height: 1.4;
+}
+.customer-main .fram-11 .content .desc{
+  margin-top: 8px;
+  color: var(--Neutral-L_Grey, #89939E);
+font-size: 1.6rem;
+line-height: 1.5;
+}
+.customer-main .fram-11 .fram-14{
+  display: flex;
+  gap: 32px;
+}
+.customer-main .fram-11 .fram-14 .logo-customer{
+  display: flex;
+  gap: 41px;
+}
+.customer-main .fram-11 .fram-14 .logo-customer .logo{
+  width: 40px;height: 40px;
+}
+.customer-main .fram-11 .fram-14 .all-customer{
+  display: flex;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+}
+.customer-main .fram-11 .fram-14 .all-customer .desc{
+  color: var(--Brand-Primary, #4CAF4F);
+font-size: 2rem;
+font-weight: 600;
+line-height: 1.4; 
+}
+/* Commu-update */
+.commu-update{
+  margin-top: 48px;
+}
+.commu-update-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.commu-update-main .commu .title{
+  color: var(--Neutral-D_Grey, #4D4D4D);
+text-align: center;
+line-height: 1.2;
+}
+.commu-update-main .commu .desc{
+text-align: center;
+width: 628px;
+margin-top: 8px;
+}
+.commu-update-main .frame-15 {
+  display: flex;
+  width: 1440px;
+  padding: 0px 144px;
+  justify-content: space-between;
+  align-items: center;
+}
+.commu-update-main .frame-15 .block{
+  position: relative;
+  display: flex;
+  width: 368px;
+height: 286px;
+}
+.commu-update-main .frame-15 .image{
+  width: 368px;
+height: 286px;
+border-radius: 8px;
+
+}
+
+.commu-update-main .frame-15 .content{
+  display: flex;
+  width: 317px;
+padding: 16px;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+border-radius: 8px;
+position: absolute;
+top: 190px;
+left: 25px;
+
+background: var(--Neutral-Silver, #F5F7FA);
+box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+}
+.commu-update-main .frame-15 .content .desc{
+width: 285px;
+font-size: 2rem;
+font-weight: 600;
+line-height: 1.4;
+text-align: center;
+}
+.commu-update-main .frame-15 .content .frame-13{
+  display: flex;
+  gap: 8px;
+}
+.commu-update-main .frame-15 .content .frame-13 .heading{
+  color: var(--Brand-Primary, #4CAF4F);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4; /* 140% */
+}
+/* Footer */
+.frame-16{
+  background: var(--Neutral-Silver, #F5F7FA);
+}
+.frame-16 .main-content{
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  margin-top: 174px;
+  text-align: center;
+flex-direction: column;
+align-items: center;
+}
+.frame-16 .button{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.frame-16 .button a{
+  color: #FFFFFF;
+}
+.footer{
+  background: var(--Neutral-Black, #263238);
+
+}
+.footer-main{
+  display: flex;
+padding: 64px 165px;
+align-items: flex-start;
+gap: 125px;
+}
+.footer-main .company-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+width: 350px;
+}
+.company-info .logo{
+  display: flex;
+align-items: center;
+gap: 9.891px;
+}
+.company-info .copyright{
+  display: flex;
+flex-direction: column;
+/* align-items: center; */
+gap: 8px;
+}
+.company-info .copyright p{
+  color: var(--Neutral-Silver, #F5F7FA);
+font-size: 1.4rem;
+line-height: 1/4;
+}
+.company-info .social-icon{
+  display: flex;
+align-items: flex-start;
+gap: 16px;
+}
+.footer-main .link{
+  display: flex;
+align-items: flex-start;
+gap: 30px;
+}
+.link .row{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.link .row h3{
+  color: var(--Neutral-White, #FFF);
+font-size: 2rem;
+font-weight: 600;
+line-height: 1.4; 
+}
+.link .row ul{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+.link .row ul li a {
+  color: var(--Neutral-Silver, #F5F7FA);
+font-size: 1.4rem;
+line-height: 1.4;
+color: #F5F7FA;
+}
+.row.company,
+.row.support{
+width:160px ;
+}
+.link .stay-up{
+width: 255px;
+}
+.link .email-box{
+  position: relative;
+display: flex;
+align-items: center;
+width: 255px;
+height: 40px;
+}
+.link .email-box .box{
+width: 255px;
+height: 40px;
+border-radius: 8px;
+opacity: 0.2;
+background: var(--Default-White, #FFF);
+}
+.link .email-box .mail{
+  position: absolute;
+  top: 9px;left: 12px;
+  color: #D9DBE1;
+font-size: 14px;
+line-height: 1.4;
+}
+.link .email-box .sent{
+  position: absolute;
+  top: 11px;
+  left: 225px;
+}
+.messenger-icon{
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  position: fixed;
+bottom: 30px;
+right: 30px;
+}
+.messenger-icon p{
+font-size: 2rem;
+}
+.fa-brands{
+  font-size: 7rem;
 }
